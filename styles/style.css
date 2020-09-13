@@ -1,0 +1,47 @@
+ul,
+ol,
+a:hover {
+  font-family: "Roboto", sans-serif;
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+
+img[src] {
+  color: blue;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+html {
+  font-size: 20px;
+  font-family: "Ma Shan Zheng", cursive;
+  background-color: #4571c9;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 20px 0;
+  color: #7700ff;
+  text-shadow: 3px 3px 1px black;
+}
+
+p,
+li {
+  font-size: 16px;
+  /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  /*width: 600px;*/
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 0 20px 20px 20px;
+  border: 1px solid black;
+}

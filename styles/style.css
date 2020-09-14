@@ -9,7 +9,7 @@ a:hover {
 
 img[src] {
   color: blue;
-  display: block;
+  /*display: block;*/
   margin: 0 auto;
   border: 1px solid black;
 }
@@ -22,7 +22,7 @@ html {
 
 h1 {
   font-size: 60px;
-  text-align: center;
+  /*text-align: center;*/
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 20px 0;
